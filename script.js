@@ -18,4 +18,6 @@ function descobrir() {
 
         res.innerHTML = `<h2>Quem nasceu em ${nasc} vai completar ${idade} anos em ${ano}</h2>`
     }
+    anonasc.value = ''
+    anonasc.focus()
 }
